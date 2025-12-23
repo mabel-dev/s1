@@ -9,10 +9,10 @@ description = "Only a litle bit of S3."
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "fastapi>=0.110,<1.0",
+    "fastapi>=0.127.0,<1.0",
     "uvicorn[standard]>=0.24,<0.30",
-    "google-cloud-storage>=2.13,<3.0",
-    "pyarrow>=15.0,<16.0",
+    "google-cloud-storage>=3.7.0,<3.0",
+    "pyarrow>=22.0.0,<16.0",
 ]
 
 [project.optional-dependencies]
